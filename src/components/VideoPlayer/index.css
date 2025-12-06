@@ -1,0 +1,46 @@
+.videoplayer-container{
+    width: 85%;
+    margin-top: 50px;
+}
+
+@media screen and (min-width:768px){
+    .videoplayer-container{
+        max-width: 1000px;
+    }
+}
+
+.video-player{
+    height: 360px;
+}
+
+@media screen and (min-width: 768px) {
+    .video-player {
+        height: 470px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .video-player {
+        height: 562px !important;
+    }
+}
+
+.video-title{
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.videostats{
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.horizontal-line{
+    width: 100%;
+    border: 1px solid #cbd5e140;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
